@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "target": "es5",
+    "types": ["pixi.js", "node"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noImplicitAny": true,
+	"skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@models/*": ["models/*"],
+      "@assets/*": ["assets/*"]
+    }
+  }
+}

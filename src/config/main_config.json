@@ -1,0 +1,215 @@
+{
+  "gameInitialWidth": 900,
+  "gameInitialHeight": 900,
+  "clickEventName": "pointerdown",
+  "defaultFont": "Russo One",
+  "spinButtonX":-110,
+  "spinButtonY":590,
+  "spinButtonFontSize":40,
+  "spinButtonFontColor":"0xffffff",
+  "spinButtonHoverLasts":0.3,
+  "countersX":130,
+  "countersY":550,
+  "reelsX":-262,
+  "reelsY":239,
+  "backgroundX":-307,
+  "backgroundY":217,
+  "paytableX": -385,
+  "paytableY":60,
+  "testersPanelX":-395,
+  "testersPanelY":730,
+  "linesX":-299,
+  "linesY":299,
+  "linesIndicatorsLeftX":-110,
+  "linesIndicatorsLeftY":299,
+  "linesIndicatorsRightX":82,
+  "linesIndicatorsRightY":299,
+  "linesWidth":600,
+  "linesHeight":10,
+  "linesBetween":60,
+  "linesBlinkingTimeoutMs":100,
+  "linesIndicatorsLinesWidth":30,
+  "spinPrice": 1,
+  "startBalance": 5000,
+  "maxBalance": 5000,
+  "assetsDirectory": "assets/",
+  "spinButtonLabel": "Spin",
+  "slotWidth": 141,
+  "slotHeight": 121,
+  "blurSize": 100,
+  "blurQuality": 100,
+  "beginStartDuration": 0.2,
+  "beginStartOffsetY": 0.1,
+  "rotateDuration": 1.3,
+  "rotateSlotsPass": 40,
+  "betweenReelsStopsDuration": 0.5,
+  "betweenReelsStopsSlotsPass": 10,
+  "stopDuration": 0.5,
+  "stopReelsPass": 3,
+  "dampingDuration": 0.2,
+  "dampingStartValue": 10,
+  "reelsCount": 3,
+  "betweenReels": 51,
+  "paytableLineWidth": 140,
+  "paytableLineHeight": 2,
+  "paytableBetweenLines": 5,
+  "paytableWinTextX": 170,
+  "paytableWinTextFontSize": 30,
+  "paytableWinTextFontColor": "0xffffff",
+  "paytableBackgroundX": -30,
+  "paytableBackgroundY": -20,
+  "paytableBackgroundWidth": 250,
+  "paytableLinesX": -20,
+  "paytableBetweenSymbols": 50,
+  "paytableColumns": 3,
+  "paytableBetweenColumnsX": 285,
+  "paytableBetweenColumnsY": 50,
+  "paytableBlinkInterval": 100,
+  "paytableComplexWinChangeTimeoutMs": 1000,
+  "winCombinationsChangeTimeoutMs": 1000,
+  "coinsBlockFontSize": 40,
+  "coinsBlockFontColor": "0x471b61",
+  "coinsBlockWidth": 150,
+  "coinsBlockHeight": 50,
+  "coinsBlockPadding": 14,
+  "coinsBlockBoxFill": "0xffffff",
+  "coinsBlockBoxRounded": 16,
+  "testersPanelBetweenReels": 280,
+  "testersPanelLinesX": -35,
+  "testersPanelLinesY": -5,
+  "testersPanelLinesWidth": 850,
+  "testersPanelLinesHeight": 10,
+  "testersPanelBetweenLines": 50,
+  "testersPanelSelectorMoveMs": 0.3,
+  "nineSliceBackgroundCornerSize": 15,
+  "reelsLines": [1,2,3],
+  "reelsLineColors": [
+    "0xff6695",
+    "0xe1b66b",
+    "0xcd4cff"
+  ],
+  "reelData": [
+    "cherry",
+    "seven",
+    "bar2",
+    "bar1",
+    "bar3"
+  ],
+  "paytable": [
+    {
+      "reelsLines": [
+        3
+      ],
+      "slotTypes": [
+        "cherry"
+      ],
+      "win": 4000
+    },
+    {
+      "reelsLines": [
+        1
+      ],
+      "slotTypes": [
+        "cherry"
+      ],
+      "win": 2000
+    },
+    {
+      "reelsLines": [
+        2
+      ],
+      "slotTypes": [
+        "cherry"
+      ],
+      "win": 1000
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "seven"
+      ],
+      "win": 150
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "seven",
+        "cherry"
+      ],
+      "win": 75
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "bar3"
+      ],
+      "win": 50
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "bar2"
+      ],
+      "win": 20
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "bar1"
+      ],
+      "win": 10
+    },
+    {
+      "reelsLines": [
+        1,
+        2,
+        3
+      ],
+      "slotTypes": [
+        "bar1",
+        "bar2",
+        "bar3"
+      ],
+      "win": 5
+    }
+  ],
+  "resources": [
+    "img/png/bar1.png",
+    "img/png/bar2.png",
+    "img/png/bar3.png",
+    "img/png/cherry.png",
+    "img/png/seven.png",
+    "img/png/background.png",
+    "img/png/spin_disabled.png",
+    "img/png/spin_normal.png",
+    "img/png/spin_hover.png",
+    "img/png/test_bar1.png",
+    "img/png/test_bar2.png",
+    "img/png/test_bar3.png",
+    "img/png/test_cherry.png",
+    "img/png/test_seven.png",
+    "img/png/test_random.png",
+    "img/png/test_selector_bg.png",
+    "img/png/test_selector_highlight.png"
+  ]
+}
