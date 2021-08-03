@@ -19,12 +19,12 @@ export class BlinkingItemsHolder<BlinkingItemType extends Sprite, BlinkingItemDa
 
     protected blink(): void {
         this.blinkOn = !this.blinkOn;
-        this.blinkItem.visible = this.blinkOn;
+        this.blinkItem.alpha = this.blinkOn ? 1 : 0;
     }
 
     protected showBlinkItem() {
         if (this.blinkItem) {
-            this.blinkItem.visible = true;
+            this.blinkItem.alpha = 1;
         }
     }
 }
