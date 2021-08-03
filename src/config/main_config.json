@@ -31,7 +31,7 @@
   "linesIndicatorsLinesWidth":30,
   "spinPrice": 1,
   "startBalance": 5000,
-  "maxBalance": 5000,
+  "maxInputBalance": 5000,
   "assetsDirectory": "assets/",
   "spinButtonLabel": "Spin",
   "slotWidth": 141,

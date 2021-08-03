@@ -31,7 +31,7 @@ export class CoinsBlock extends Sprite {
             let joined: string = textInput.value.split("").filter(char => ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"].indexOf(char) > -1).join("");
             textInput.value = joined == "" ? "0" : joined;
             let inputValue: number = parseInt(textInput.value);
-            GameData.setBalance(Math.min(inputValue, GameData.gameConfig.maxBalance));
+            GameData.setBalance(Math.min(inputValue, GameData.gameConfig.maxInputBalance));
         });
         textInput.addEventListener('keydown', (e: KeyboardEvent) => {
             this._allowedKeys.indexOf(e.code) == -1 && e.preventDefault();

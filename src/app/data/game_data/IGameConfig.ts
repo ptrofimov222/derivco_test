@@ -50,7 +50,7 @@ export interface IGameConfig {
     spinPrice: number;
     config: number;
     startBalance: number;
-    maxBalance: number;
+    maxInputBalance: number;
     assetsDirectory: string;
     spinButtonLabel: string;
     slotWidth: number;
